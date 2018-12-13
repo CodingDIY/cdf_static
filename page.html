@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>My Website | Page</title>
+	<link rel="apple-touch-icon" sizes="57x57" href="./assets/images/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="./assets/images/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="./assets/images/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="./assets/images/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="./assets/images/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="./assets/images/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="./assets/images/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="./assets/images/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="./assets/images/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="./assets/images/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="./assets/images/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-16x16.png">
+	<link rel="manifest" href="./assets/images/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="./assets/images/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+<link href="assets/css/app.bundle.css" rel="stylesheet"></head>
+<body class="page">
+	<a id="scrolltoTop" class="shadow-xl">Top</a>
+	
+	<!-- SECTION: Navbar
+	====================================================== -->
+	<nav id="primary-navbar" class="navbar navbar-expand-lg navbar-transparent fixed-top rgba-black-light">
+		<div class="container">
+			<a class="navbar-brand text-white" href="index.html" data-toggle="tooltip" data-placement="bottom" title="This is my Website">
+				<img src="./assets/images/bootstrap-logo.png" alt="My Logo" width="60px"> My Website
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link text-center" href="index.html"><i class="fa fa-home fa-lg"></i><p>Home</p></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-center" href="intro.html"><i class="fa fa-info fa-lg"></i><p>Intro</p></a>
+					</li>
+					<li class="nav-item active dropdown">
+						<a class="nav-link text-center dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<i class="fas fa-book-open fa-lg"></i><p>Page <span class="sr-only">(current)</span></p>
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="page.html">Action</a>
+							<a class="dropdown-item" href="page.html">Another action</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="page.html">Something else here</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-center" href="blog.html"><i class="fa fa-rss fa-lg"></i><p>Blog</p></a>
+					</li>
+					<li class="nav-item dropdown dropdown-wide d-lg-block d-none">
+						<a class="nav-link text-center dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<i class="fa fa-th-large fa-lg"></i><p>Project</p>
+						</a>
+						<div class="dropdown-menu w-75" aria-labelledby="navbarDropdown">
+							<div class="container-fluid py-4" id="mega-menu">
+								<div class="row">
+									<div class="col-xl-3">
+										<h5>
+											<strong class="text-danger">Project Title</strong>
+										</h5>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+										<img src="./assets/images/bg_universe.jpg" alt="" class="img-fluid rounded mt-3">
+									</div>
+									<div class="col-xl-9">
+										<h5>
+											<strong class="text-success">Our Projects below...</strong>
+										</h5>
+										<div class="dropdown-divider mt-3 mb-4"></div>
+										<div class="row">
+											<div class="col">
+												<img src="./assets/images/img1.jpg" alt="" class="img-fluid shadow-lg">
+												<a href="page.html" class="dropdown-item">
+													<br>
+													<h6>
+														<strong>Project 1</strong>
+													</h6>
+												</a>
+											</div>
+											<div class="col">
+												<img src="./assets/images/img2.jpg" alt="" class="img-fluid shadow-lg">
+												<a href="page.html" class="dropdown-item">
+													<br>
+													<h6>
+														<strong>Project 2</strong>
+													</h6>
+												</a>
+											</div>
+											<div class="col">
+												<img src="./assets/images/img3.jpg" alt="" class="img-fluid shadow-lg">
+												<a href="page.html" class="dropdown-item">
+													<br>
+													<h6>
+														<strong>Project 3</strong>
+													</h6>	
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<!-- Project Mega Menu for PC -->
+					<li class="nav-item dropdown d-block d-lg-none">
+						<a class="nav-link text-center dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<i class="fa fa-th-large fa-lg"></i><p>Project</p>
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="page.html">Project 1</a>
+							<a class="dropdown-item" href="page.html">Project 2</a>
+							<a class="dropdown-item" href="page.html">Project 3</a>
+						</div>
+					</li>
+					<!-- Project Mega Menu for mobile -->
+					<li class="nav-item">
+						<a class="nav-link text-center" data-toggle="modal" data-target="#modal-contact" href="#"><i class="fa fa-envelope fa-lg"></i><p>Contact</p></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-center" href="reservation.html"><i class="fa fa-desktop fa-lg"></i><p>Reservation</p></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- SECTION: Navbar -->
+
+	<!-- Modal Contact -->
+	<div class="modal fade bd-example-modal-lg" id="modal-contact" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title text-info" id="exampleModalLabel">Contact us!</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<p class="bold">Thank you for contact us. We will call you ASAP in real time. Please fill in the space below.</p>
+					<br>
+					<form>
+						<div class="form-row mb-3">
+							<div class="col-3">
+								<input type="text" class="form-control" placeholder="Your Name">
+							</div>
+							<div class="col-3">
+								<input type="text" class="form-control" placeholder="Your Phone Number">
+							</div>
+							<div class="col-6">
+								<input type="email" class="form-control" placeholder="jdoe@email.com">
+							</div>
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Subject">
+						</div>
+						<div class="form-group">
+							<textarea rows="4" class="form-control" placeholder="Write your message..."></textarea>
+						</div>
+						<button type="submit" class="btn btn-light">Sign In</button>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- SECTION: Jumbotron
+	====================================================== -->
+	<section class="jumbotron jumbotron-fluid mb-0 wow fadeInDown">
+		<div class="section-content">
+			<div class="container text-center text-white rgba-black-light p-5 my-5">
+				<h1 class="display-4 font-weight-bold">Page Title</h1>
+				<hr class="hr-white w-75">	
+				<p class="lead">Page Description here. It uses utility classes for typography and spacing to space content out within the larger container.</p>
+			</div>
+		</div>
+	</section>
+	<!-- SECTION: Jumbotron -->
+
+	<!-- SECTION: Page Content
+	====================================================== -->
+	<section id="page-content" class="main main-raised-square">
+		<div class="section-content">
+			<div class="container">
+				<div class="row py-5">
+					
+					<article class="col-lg-8 mb-5 wow fadeInLeft">
+						<h3>This is A SubTitle</h3>
+						<br>
+						<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab officiis, quia, eos dolore atque dolorum repellat commodi modi a sed id provident perspiciatis. Ipsam minima similique, ducimus consequatur tenetur dolorem!</p>
+						<br>
+						<img src="./assets/images/port1.jpg" alt="" class="img-fluid shadow-lg wow slideInLeft">
+						<br><br>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam aut consequuntur quidem iure quasi eveniet aspernatur sit quod quo voluptate temporibus, deserunt assumenda soluta nobis beatae asperiores doloremque enim dignissimos maiores libero. Dicta provident consectetur ullam quos labore voluptatem est, velit ab, ad, fugiat rerum omnis quaerat! Sit, officia, voluptate.</p>
+						<br>
+						<img src="./assets/images/port2.jpg" alt="" class="float-left mr-3 mb-3 shadow-lg wow slideInLeft" style="width: 60%;">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi non earum aperiam, perspiciatis iusto omnis commodi fugit consequatur molestias! Beatae aliquam officiis laboriosam delectus, commodi obcaecati ducimus ullam eligendi id blanditiis odio sed a deserunt voluptatem, voluptatibus harum minima voluptatum alias necessitatibus tempore architecto! Possimus aperiam libero enim beatae dolor rerum ad quisquam ex voluptatum, voluptatibus, error illum iusto consectetur repellat minima aut eligendi, ipsam ipsa, alias quidem. Vel ipsa blanditiis, architecto voluptates at recusandae possimus reiciendis dolores tenetur perferendis ab magni earum dolore vitae nisi pariatur officia laboriosam provident quam, unde, illo veritatis. Nulla eius quasi culpa, accusamus esse cupiditate sit soluta eveniet labore voluptatem, delectus odit, inventore quo accusantium laboriosam officiis necessitatibus aliquam quibusdam blanditiis facere ipsum! Non nulla architecto quos perferendis ipsum laboriosam facilis hic incidunt odio illum nesciunt, ut iste facere nisi sint nihil. Deserunt recusandae illum velit eos, autem excepturi, inventore voluptate ex neque esse. Nostrum consequuntur laborum nulla pariatur quidem. Necessitatibus, quis sapiente, exercitationem ea repudiandae quos harum assumenda nobis suscipit quia delectus natus dolor quisquam. Officiis quae in nisi placeat! Omnis dignissimos sed eaque voluptas voluptates, voluptate ratione. Odit, ad nisi illo esse non, dignissimos. Vitae officia laboriosam, nemo aliquam rem quae voluptas accusantium omnis consectetur nulla. Ipsa quaerat consequatur deleniti dolorem quam culpa, beatae eligendi, dolore aspernatur odit tenetur vitae autem nihil obcaecati. Accusantium asperiores dolores sit, ducimus aperiam esse nostrum vel cumque, fuga deleniti nesciunt tempora explicabo, repellat atque ut cum repudiandae quia distinctio eos, architecto possimus officiis alias! Debitis quas omnis corrupti, dicta explicabo cum saepe maiores consequatur iste voluptas dolor inventore voluptates, eaque mollitia vero fugit sed repellendus ducimus impedit. Nulla rem, enim reprehenderit placeat deserunt error adipisci neque dolore obcaecati voluptas, molestias officiis, ab cum cumque eius at. Beatae ducimus omnis pariatur molestias, cum nobis itaque, perspiciatis labore rem excepturi commodi nostrum ipsum, quos a eius. Perferendis sunt facere adipisci quo nostrum at, veniam optio. Deserunt, velit! Sint aliquid veritatis eaque doloremque! Debitis, dolores quo tempore inventore? Quidem quibusdam in quaerat, vel libero, optio, eos dolores vitae repellat mollitia voluptatibus? Reiciendis beatae necessitatibus reprehenderit est repellat debitis in consectetur repellendus, blanditiis quia veritatis facilis at numquam impedit porro non quo nam, doloremque incidunt voluptatibus quam dolore pariatur quibusdam! Voluptates, cum nesciunt nobis voluptatum vitae, laborum omnis ea fugit exercitationem fugiat accusamus quidem itaque? Ut deserunt ratione magni repellendus atque necessitatibus odit, illum sunt placeat molestias id soluta tempore minima cumque repellat neque similique! Possimus autem ex, eligendi dolore doloribus molestias praesentium libero eum earum! Error consequatur accusamus debitis a numquam veniam molestiae tenetur possimus enim ipsum consectetur, repudiandae sunt, quam necessitatibus maxime aut rem odio reiciendis aliquid cumque odit! Sunt magni, dolore architecto id soluta dolores non suscipit quos sit tempore quas cum, atque earum modi, numquam repellat deleniti totam ratione officiis eligendi. Iste odio error quam iure velit eius ipsam! Cupiditate deserunt officia eius, reiciendis ipsum natus blanditiis dolores itaque voluptatum placeat aliquam nostrum, accusamus dolorum aspernatur amet laudantium possimus hic corporis. Magnam cupiditate exercitationem animi dolor!</p>
+						<br>
+						<img src="./assets/images/port3.jpg" alt="" class="float-right ml-3 mb-3 shadow-lg wow slideInRight" style="width: 75%;">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur tempore, sit eveniet consectetur esse quidem nemo aliquid officia corporis architecto sint distinctio. Quisquam illum eligendi totam voluptatum amet nesciunt deleniti placeat dicta, quaerat assumenda autem quae, porro expedita eveniet accusantium vero facere sunt aut aperiam quidem impedit? Delectus iusto cupiditate libero provident, enim deleniti, eligendi sequi incidunt modi velit cumque fuga obcaecati officia possimus maxime culpa esse earum, labore numquam pariatur sit ipsum iure. Consequuntur quos ipsa ut, reprehenderit inventore necessitatibus iste delectus doloribus dolores eum aut magni, aspernatur enim dolore vero vitae debitis error, distinctio cum repellendus. Voluptatum, quia?</p>
+
+						<br>
+						<div class="alert alert-success alert-dismissible fade show" role="alert">
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+							<h4 class="alert-heading">Well done!</h4>
+							<p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+							<hr>
+							<p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+						</div>
+					</article>
+
+					<aside class="col-lg-4 wow fadeInRight">
+						<div class="page-list card shadow-xl mb-4">
+							<div class="card-body bg-info">
+								<h4 class="text-white">Page Parent Title</h4>
+							</div>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item list-group-item-action">
+									<a href="page.html" class="text-muted">Page List 1</a>
+								</li>
+								<li class="list-group-item list-group-item-action">
+									<a href="page.html" class="text-muted">Page List 2</a>
+								</li>
+								<li class="list-group-item list-group-item-action">
+									<a href="page.html" class="text-muted">Page List 3</a>
+								</li>
+								<li class="list-group-item list-group-item-action">
+									<a href="page.html" class="text-muted">Page List 4</a>
+								</li>
+								<li class="list-group-item list-group-item-action">
+									<a href="page.html" class="text-muted">Page List 5</a>
+								</li>
+							</ul>
+						</div>
+
+						<div class="widget-group text-white p-4">
+							<div class="widget">
+								<h4 class="text-warning font-weight-bold">
+									<i class="fas fa-map-marker-alt fa-lg mr-4"></i> FindUS
+								</h4>
+								<p class="ml-5 mt-3 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id quasi eius, delectus facilis. Architecto saepe facilis laudantium cupiditate quas nam!</p>
+							</div>
+
+							<div class="widget">
+								<h4 class="text-warning font-weight-bold">
+									<i class="fa fa-phone fa-lg mr-4"></i> Give US a call
+								</h4>
+								<p class="ml-5 mt-3 mb-5">02-111-1111.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id quasi eius, delectus facilis. Architecto saepe facilis laudantium cupiditate quas nam!</p>
+							</div>
+
+							<div class="widget">
+								<h4 class="text-warning font-weight-bold">
+									<i class="far fa-file fa-lg mr-4"></i> Legal Information
+								</h4>
+								<p class="ml-5 mt-3 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id quasi eius, delectus facilis. Architecto saepe facilis laudantium cupiditate quas nam!</p>
+							</div>
+						</div>
+					</aside>
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- SECTION: Page Content -->
+
+	<!-- SECTION: Communicating
+	====================================================== -->
+	<section id="communicate">
+		<div class="section-content">
+			<div class="container">
+				<div class="row communicate-box wow bounce text-white">
+					
+					<div class="col-8 offset-2 text-center my-5">
+						<h3>How to communicate us</h3>
+						<p class="lead my-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus nam et, suscipit fugit similique in vel sapiente numquam voluptatum ratione!</p>
+					</div>
+
+					<div class="col-md-4 mb-5 text-center">
+						<i class="fa fa-phone fa-5x mb-3"></i>
+						<h5>02-111-1111</h5>
+						<hr class="hr-white w-50 mx-auto my-4">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem ullam, ut culpa cupiditate officiis reiciendis qui debitis voluptatibus accusamus? Velit, possimus, magni. Dignissimos quasi porro iusto commodi quaerat itaque recusandae.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A laborum modi, officia debitis nulla sunt.</p>
+					</div>
+
+					<div class="col-md-4 mb-5 text-center">
+						<i class="fas fa-comments fa-5x mb-3"></i>
+						<h5>@kakaotalk_ID</h5>
+						<hr class="hr-white w-50 mx-auto my-4">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem ullam, ut culpa cupiditate officiis reiciendis qui debitis voluptatibus accusamus? Velit, possimus, magni. Dignissimos quasi porro iusto commodi quaerat itaque recusandae.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A laborum modi, officia debitis nulla sunt.</p>
+					</div>
+
+					<div class="col-md-4 mb-5 text-center">
+						<i class="fas fa-map-marker-alt fa-5x mb-3"></i>
+						<h5>Landmark</h5>
+						<hr class="hr-white w-50 mx-auto my-4">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem ullam, ut culpa cupiditate officiis reiciendis qui debitis voluptatibus accusamus? Velit, possimus, magni. Dignissimos quasi porro iusto commodi quaerat itaque recusandae.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A laborum modi, officia debitis nulla sunt.</p>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- SECTION: Communicating -->
+
+	<!-- SECTION: Footer
+	====================================================== -->
+	<footer class="footer py-5">
+		<div class="container wow fadeInUp">
+			<div class="section-content">
+				<div class="row">
+					<div class="col-md-4 mb-4">
+						<a href="index.html" class="text-warning">
+							<h5>My Website</h5>
+						</a>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis eveniet maxime, recusandae. Incidunt porro cum voluptas ipsam fugiat accusamus, soluta!</p>
+					</div>
+					<div class="col-md-2 d-none d-md-block mb-4">
+						<h5>Projects</h5>
+						<ul class="list-unstyled">
+							<li>
+								<a href="page.html" class="text-muted">Project 1</a>
+							</li>
+							<li>
+								<a href="page.html" class="text-muted">Project 2</a>
+							</li>
+							<li>
+								<a href="page.html" class="text-muted">Project 3</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-2 d-none d-md-block mb-4">
+						<h5>Pages</h5>
+						<ul class="list-unstyled">
+							<li>
+								<a href="page.html" class="text-muted">Page 1</a>
+							</li>
+							<li>
+								<a href="page.html" class="text-muted">Page 2</a>
+							</li>
+							<li>
+								<a href="page.html" class="text-muted">Page 3</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-4 mb-4">
+						<div class="card card-body bg-danger">
+							<div class="card-text">
+								<div class="text-white d-flex justify-content-start">
+									<i class="fas fa-phone fa-4x mr-5"></i>
+									<div class="icon-list-content">
+										<div>
+											<p class="my-0">Phone Call</p>
+										</div>
+										<div>
+											<p class="lead">
+												<a href="tel:02-111-1111" class="text-white">
+													<strong>02-111-1111</strong>
+												</a>
+											</p>
+										</div>
+									</div>
+								</div>
+								<hr class="hr-white mt-0 mb-3">
+								<div class="text-white">
+									<span>
+										<i class="fa fa-envelope fa-lg mr-3"></i> 
+										<a href="mailto:jdoe@email.com" class="text-white">
+											<strong>jdoe@email.com</strong>
+										</a>
+									</span>
+								</div>
+								<br>
+								<div class="text-white">
+									<span>
+										<i class="fa fa-home fa-lg mr-3"></i> 
+										<strong>111-11 Gil-dong, Jung-gu, Seoul, South Korea</strong>
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr class="my-5">
+			<ul class="social-icons list-unstyled d-flex justify-content-center">
+				<li class="mx-2">
+					<a href="#" style="color: #00aced;">
+						<i class="fab fa-twitter fa-2x"></i>
+					</a>
+				</li>
+				<li class="mx-2">
+					<a href="#" style="color: #3b5998;">
+						<i class="fab fa-facebook-square fa-2x"></i>
+					</a>
+				</li>
+				<li class="mx-2">
+					<a href="#" style="color: #d34836;">
+						<i class="fab fa-google-plus fa-2x"></i>
+					</a>
+				</li>
+				<li class="mx-2">
+					<a href="#" style="color: #cc181e;">
+						<i class="fab fa-youtube fa-2x"></i>
+					</a>
+				</li>
+			</ul>
+			<div class="copyright text-center text-muted mt-4">
+				Copyright &copy;
+				<script>
+					document.write(new Date().getFullYear())
+				</script> My Website. All Rights Reserved.
+			</div>
+		</div>
+	</footer>
+	<!-- SECTION: Footer -->
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNfOOuZAeP-bB3mXaZbJx0JrU8or-Kppo&callback=initMap"
+    async defer></script>
+<script type="text/javascript" src="assets/js/app.bundle.js"></script></body>
+</html>
+
+
+
+
+
+
